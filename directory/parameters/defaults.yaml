@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+#
+# Set default values.
+---
+values:
+  pkg:
+    name: directory
+  rootgroup: root
+  config: '/etc/directory'
+  service:
+    name: directory
+  subcomponent:
+    config: '/etc/directory-subcomponent-formula.conf'
+  # Just here for testing
+  added_in_defaults: defaults_value
+  winner: defaults
+...
